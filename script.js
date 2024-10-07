@@ -27,3 +27,15 @@ form12.addEventListener('click', (e) => {
         }
     }
 });
+
+//Задача 1 Средний уровень
+const task21 = document.querySelector('.wrap-task21');
+task21.addEventListener('click', (e) => {
+    if (e.target.id === 'btn21' && task21.children.p21) {
+        task21.children.p21.remove();
+    } else if (e.target.id === 'btn22' && task21.children.p22) {
+        task21.children.p22.remove();
+    } else if (e.target.id === 'btn23' && task21.children.p23) {
+        task21.children.p23.remove();
+    }
+});
