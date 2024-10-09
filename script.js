@@ -39,3 +39,14 @@ task21.addEventListener('click', (e) => {
         task21.children.p23.remove();
     }
 });
+
+//Задача 2 Средний уровень
+const imgTask22 = document.querySelector('.img-task22');
+imgTask22.addEventListener('mouseover', () => {
+    imgTask22.style.width = '400px';
+    imgTask22.style.left = 'calc(50% - 200px)';
+});
+imgTask22.addEventListener('mouseout', () => {
+    imgTask22.style.width = '300px';
+    imgTask22.style.left = 'calc(50% - 150px)';
+});

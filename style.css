@@ -1,0 +1,9 @@
+.wrap-task22 {
+    position: relative;
+}
+
+.img-task22 {
+    width: 300px;
+    position: absolute;
+    left: calc(50% - 150px);
+}
